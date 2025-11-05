@@ -1,5 +1,7 @@
 # The White Noise
 
+## Description
+
 The gate creaked open like it hadn't been touched since the dawn of the last century. You stepped inside.
 
 The mansion was silent. Too silent. Except for the steady drip of rain through a cracked ceiling. Your eyes ran over countless corners and door frames, scanning for danger signs. Nothing. At least, nothing a human sight could process through the dust with a little help from the dim light.
@@ -20,10 +22,20 @@ It looked like some madman was trying to make the TV work by randomly tilting th
 
 > Given that information, your answer should be a number between 0 and 359.
 
-
-
 > To get data for this task, click "Download the dataset".
 
 > You will need to submit only the right answer as plain text. You can write and run code in IDE of your choice or use our code playground (click on the Spacebot at the bottom right).
 
 > If you feel stuck, join our Discord community and ask for hints in a special channel #fright-night-coding.
+
+## Running the project
+
+```bash
+mvn validate
+mvn compile
+java -cp target/classes com.gerbosan.App
+```
+
+After executing, the program will ask for the name of the file, which is in the same directory of the project, name: **hyperskill-dataset-117313126.txt**
+
+The program will return the final number, the degrees asked.
