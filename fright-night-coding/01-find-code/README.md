@@ -1,5 +1,7 @@
 # The Wrong (re)Turn
 
+## Description
+
 It was a perfectly miserable autumn day: rain, gray skies, and your boss’s reluctant blessing to “enjoy” two whole vacation days. Not enough for the beach, but enough to visit your old uncle. He lives in the middle of nowhere and you've been too busy to even make a birthday call.
 
 You packed light: clothes, essentials, and your old laptop — because nothing says rest like checking emails in the woods. The car was supposed to get you there by midnight.
@@ -18,8 +20,20 @@ The only problem is the gate. How do you open it? There is a panel with 10 digit
 
 The sequence looks enormous, you could spend hours calculating the code by hand. Good thing you brought your laptop, right? A small program that calculates the answer should not be too hard...
 
-> To get data for this task, click [Download the dataset]().
+> To get data for this task, click [Download the dataset](./hyperskill-dataset-117267365.txt).
 
 > You will need to submit only the right answer as plain text. You can write and run code in IDE of your choice or use our code playground (click on the Spacebot at the bottom right).
 
 > If you feel stuck, join our Discord community and ask for hints in a special channel #fright-night-coding.
+
+## Running the project
+
+```bash
+mvn validate
+mvn compile
+java -cp target/classes com.gerbosan.App
+```
+
+After executing, the program will ask for the name of the file, which is in the same directory of the project, name: **hyperskill-dataset-117267365.txt**
+
+The program will return a frequency table, next a list with the four most frequent numbers.
