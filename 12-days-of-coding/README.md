@@ -12,4 +12,5 @@ Some Hyperskill exercises, themed for Christmas.
 - [x] [On the sixth day of coding](./06-on-the-sixth-day-of-coding/06-on-the-sixth-day-of-coding.md), date: 2025-12-30
 - [x] [On the seventh day of coding](./07-on-the-seventh-day-of-coding/07-on-the-seventh-day-of-coding.md), date: 2025-12-31
 - [x] [On the eighth day of coding](./08-on-the-eighth-day-of-coding/08-on-the-eighth-day-of-coding.md), date: 2026-01-01
-- [ ] [On the ninth day of coding]()
+- [x] [On the ninth day of coding](./10-on-the-tenth-day-of-coding/10-on-the-tenth-day-of-coding.md), date: 2026-01-02
+- [ ] [On the tenth day of coding]()
